@@ -1,38 +1,88 @@
-export const listItems = [
+export const navbarLinks = [
   {
     id: '1',
-    name: '#شهید_ابراهیم_هادی',
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWje_gjVcmi-wks5nTRnW_xv5W2l3MVnk7W1QDcZuhNg&s',
+    name:'پوشاک',
+    url:'/',
   },
   {
     id: '2',
-    name: '#وصیت_نامه_شهید',
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWje_gjVcmi-wks5nTRnW_xv5W2l3MVnk7W1QDcZuhNg&s',
+    name:'لوازم خانه',
+    url:'/',
   },
   {
     id: '3',
-    name: '#شهید_خرازی',
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWje_gjVcmi-wks5nTRnW_xv5W2l3MVnk7W1QDcZuhNg&s',
+    name:'قاب موبایل',
+    url:'/',
   },
   {
     id: '4',
-    name: '#شهید_بابایی',
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWje_gjVcmi-wks5nTRnW_xv5W2l3MVnk7W1QDcZuhNg&s',
+    name:'اکسسوری',
+    url:'/',
   },
   {
     id: '5',
-    name: '#وصیت_نامه_شهید',
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWje_gjVcmi-wks5nTRnW_xv5W2l3MVnk7W1QDcZuhNg&s',
+    name:'مدرسه و اداره',
+    url:'/',
   },
   {
     id: '6',
-    name: '#شهید_خرازی',
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWje_gjVcmi-wks5nTRnW_xv5W2l3MVnk7W1QDcZuhNg&s',
+    name:'کارت و پوستر',
+    url:'/',
+  },
+  {
+    id: '7',
+    name:'جشن و مهمانی',
+    url:'/',
   },
 ]
+export const productCategories = [
+  {
+    id: '1',
+    name: 'قاب موبایل',
+    image: '',
+  },
+  {
+    id: '2',
+    name: 'کارت تبریک',
+    image: '',
+  },
+  {
+    id: '3',
+    name: 'اکسسوری',
+    image: '',
+  },
+  {
+    id: '4',
+    name: 'لوازم تحریر',
+    image: '',
+  },
+  {
+    id: '5',
+    name: 'لباس',
+    image: '',
+  },
+  {
+    id: '6',
+    name: 'دکور خانه',
+    image: '',
+  },
+]
+// export const bestSellingProduct = [
+//   {
+//     id: '1',
+//     name: '',
+//     image: '',
+//   },
+// ]
+// export const specialSale = [
+//   {
+//     id: '1',
+//     name: '',
+//     image: '',
+//   },
+// ]
+
+
+
+
+

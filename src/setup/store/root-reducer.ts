@@ -1,8 +1,8 @@
 import { combineReducers } from "@reduxjs/toolkit"
-import { infoSlice } from "scenes/_slice/info.slice"
+import { homeSlice } from "scenes/_slice/home.slice"
 
 const rootReducer = combineReducers({
-  info: infoSlice.reducer,
+  home: homeSlice.reducer,
 })
 
 export type RootState = ReturnType<typeof rootReducer>
