@@ -1,6 +1,6 @@
-import React from 'react'
+ 
 import { Link } from 'react-router-dom'
-import { Grid, Typography, styled } from '@mui/material'
+import { Grid,styled } from '@mui/material'
 import SearchInput from 'components/input/search'
 import CustomizedButton from 'components/button'
 import { CartIcon, LoginIcon, MagicPenIcon } from 'components/icons'

@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import {IconButton, InputBase, styled } from '@mui/material'
 import { SearchIcon } from 'components/icons'
 
@@ -8,7 +8,7 @@ const InputSection = styled('div')(({ theme }) => ({
   height:'48px',
   borderRadius:'16px',
   padding:'11px 24px',
-  border: `1px solid ${theme.palette.primary.light}`,
+  border: `1px solid ${theme.palette.black.light}`,
   display:'flex',
   justifyContent:'flex-start',
   alignItems:'center',
