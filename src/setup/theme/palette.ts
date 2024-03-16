@@ -4,14 +4,14 @@ export const palette = {
       contrastText: '#0C0C0C',
     },
     primary:{
-     main: '#0C68F4',
-     light: '#e4eefe',
-     dark: '#042352',   
+     main: '#FF6B6B',
+     light: '#d3dded',
+     dark: '#C41E3A',   
     },
     secondary:{
-     main: '#F45E0C',
-     light: '#fddbc9', 
-     dark: '#883406',  
+     main: '#6B5B95',
+     light: '#A999D9', 
+     dark: '#4B2E83',  
     },
     error:{
      main: '#C91433',
@@ -21,7 +21,11 @@ export const palette = {
      main: '#146C43',
      light:'#D1F7E5',   
     },
-    black:'#110506',
+    //#D4A628 #FFDB7D
+    black:{
+      main: '#110506',
+      light:'#D6D6D6'
+    }
   }   
   declare module '@mui/material/styles' {
     interface Palette {
@@ -30,7 +34,7 @@ export const palette = {
       secondary: Palette['primary']
       error: Palette['primary']
       success: Palette['primary']
-      black: string
+      black: Palette['primary']
     }
     interface PaletteOptions {
       neutral?: PaletteOptions['primary']
@@ -38,7 +42,7 @@ export const palette = {
       secondary?: PaletteOptions['primary']
       error?: PaletteOptions['primary']
       success?: PaletteOptions['primary']
-      black?: string
+      black?: PaletteOptions['primary']
     }
   }
   declare module '@mui/material/Button' {

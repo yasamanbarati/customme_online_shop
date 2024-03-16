@@ -1,22 +1,30 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import { Provider } from "react-redux"
-import { ThemeProvider } from "@mui/material"
-import { store } from "setup/store"
+import { HashRouter } from "react-router-dom"
+
 import { reportWebVitals } from "./setup/benchmark"
-import { Root } from "./scenes"
+
+import {CssBaseline, ThemeProvider } from "@mui/material"
+import { Provider } from "react-redux"
+
+import { store } from "setup/store"
 import { theme } from "setup/theme"
+import { Root } from "scenes"
+
 import "./setup/i18-next"
 import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement)
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <ThemeProvider theme={theme}>
-        <Root />
-      </ThemeProvider>
-    </Provider>
+    <HashRouter>
+      <Provider store={store}>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+            <Root />
+        </ThemeProvider>
+      </Provider>
+    </HashRouter>
   </React.StrictMode>
 )
 

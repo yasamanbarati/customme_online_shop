@@ -32,5 +32,8 @@ body,
   overflow: hidden;
   height: 100%;
   user-select: none;
-  font-family: Vazir;
+  direction: rtl;
+}
+* {
+  font-family: Vazir !important;
 }

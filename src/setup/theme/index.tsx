@@ -4,22 +4,22 @@ import { palette } from './palette'
 export const theme = createTheme({
   palette: palette,
   spacing: 4,//theme.spacing(2); // `${4 * 2}px` = '8px'
-  breakpoints: {
-    values: {
-      //به بالا
-      xs: 0,
-      mobileS: 320,
-      mobileM: 375,
-      mobileL: 485,
-      sm: 576,
-      tabletM: 667,
-      tabletL: 768,
-      md: 930,
-      laptop: 1100,
-      lg: 1200,
-      xl: 1440,
-    },
-  },
+  // breakpoints: {
+  //   values: {
+  //     //به بالا
+  //     xs: 0,
+  //     mobileS: 320,
+  //     mobileM: 375,
+  //     mobileL: 485,
+  //     sm: 576,
+  //     tabletM: 667,
+  //     tabletL: 768,
+  //     md: 930,
+  //     laptop: 1100,
+  //     lg: 1200,
+  //     xl: 1440,
+  //   },
+  // },
   components: {
     MuiButton: {
       defaultProps: {
