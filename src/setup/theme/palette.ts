@@ -5,7 +5,7 @@ export const palette = {
     },
     primary:{
      main: '#FF6B6B',
-     light: '#d3dded',
+     light: '#F6EAEB',
      dark: '#C41E3A',   
     },
     secondary:{

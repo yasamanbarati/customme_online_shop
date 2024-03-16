@@ -30,6 +30,7 @@ export const theme = createTheme({
           lineHeight: '25.6px',
           textTransform: 'lowercase',
           gap: '10px',
+          borderRadius: '8px',
         },
       },
       variants: [

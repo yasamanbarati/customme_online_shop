@@ -1,5 +1,7 @@
 import { Typography, styled } from "@mui/material"
+
 import Layout from "./layout"
+import CoverSection from "./components/cover_section"
 
 
 const AdvertisingNavbarSection = styled(Typography)(({ theme }) => ({
@@ -10,6 +12,7 @@ const AdvertisingNavbarSection = styled(Typography)(({ theme }) => ({
   color: theme.palette.neutral.main,
   padding:'7px 0'
 }))
+
 export const Root = () => {
   return <>
 
@@ -18,8 +21,8 @@ export const Root = () => {
     </AdvertisingNavbarSection>
 
   <Layout>
-    <div>
-      
+    <div style={{padding:'0 108px'}}>
+      <CoverSection />
     </div>
   </Layout>
   </>
